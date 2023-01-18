@@ -27,16 +27,21 @@ struct ContentView: View {
                     
                     
                 } else if answerNumber == 2 {
-                    Image("choki")
+                    Image("made choki")
                         .resizable()
                         .scaledToFit()
                     Text("チョキ").padding(.bottom)
                     
                 } else if answerNumber == 3{
-                    Image("pa")
+                    Image("made pa")
                         .resizable()
                         .scaledToFit()
                     Text("パー").padding(.bottom)
+                } else {
+                    Image("strongest")
+                        .resizable()
+                        .scaledToFit()
+                    Text("最強").padding(.bottom)
                 }
                 
                 
